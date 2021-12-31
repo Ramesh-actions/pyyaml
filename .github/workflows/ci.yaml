@@ -3,7 +3,7 @@
 # are split because GHA doesn't support a dynamic/conditional matrix. This workflow
 # has slow jobs and jobs that require private GHA runners (eg, M1 Mac) commented out.defaults:
 # Ensure changes are synced with manual_artifact_build.yaml.
-name: PyYAML CII
+name: PyYAML CI
 
 on:
   push:
