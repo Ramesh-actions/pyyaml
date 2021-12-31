@@ -69,7 +69,7 @@ jobs:
 
   linux_libyaml:
     name: libyaml ${{matrix.cfg.arch}} ${{matrix.cfg.platform}}
-    runs-on: ubuntu-latest
+    runs-on: winserver
     strategy:
       matrix:
         cfg:
