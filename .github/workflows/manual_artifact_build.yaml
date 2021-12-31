@@ -4,9 +4,9 @@
 name: Manual Artifact Build
 
 on:
-#  push:
-#  pull_request:
-#    types: [opened, synchronize, edited, reopened]
+  push:
+  pull_request:
+    types: [opened, synchronize, edited, reopened]
   workflow_dispatch:
 
 env:
